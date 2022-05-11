@@ -1,0 +1,15 @@
+/home/violaontheroad/Documents/CSharp/bank/bin/Debug/net6.0/bank
+/home/violaontheroad/Documents/CSharp/bank/bin/Debug/net6.0/bank.deps.json
+/home/violaontheroad/Documents/CSharp/bank/bin/Debug/net6.0/bank.runtimeconfig.json
+/home/violaontheroad/Documents/CSharp/bank/bin/Debug/net6.0/bank.dll
+/home/violaontheroad/Documents/CSharp/bank/bin/Debug/net6.0/bank.pdb
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.csproj.AssemblyReference.cache
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.GeneratedMSBuildEditorConfig.editorconfig
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.AssemblyInfoInputs.cache
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.AssemblyInfo.cs
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.csproj.CoreCompileInputs.cache
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.dll
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/refint/bank.dll
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.pdb
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/bank.genruntimeconfig.cache
+/home/violaontheroad/Documents/CSharp/bank/obj/Debug/net6.0/ref/bank.dll
