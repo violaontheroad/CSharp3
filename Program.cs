@@ -1,28 +1,26 @@
-﻿
-ContaCorrente contaDoBruno = new ContaCorrente();
+﻿using ByteBank;
 
-contaDoBruno.titular = "Bruno";
-bool resultadoSaque = contaDoBruno.Sacar(50);
+class Program   
+{
+    static void Main(string[] args)
+    {
+        Cliente gabriela = new Cliente();
 
-Console.WriteLine(resultadoSaque);
-Console.WriteLine(contaDoBruno.saldo); 
+        gabriela.nome = "Gabriela";
+        gabriela.profissao = "Dev C#";
+        gabriela.cpf = "439.459.409-34";
 
-contaDoBruno.Depositar(500);
-Console.WriteLine(contaDoBruno.saldo); 
+        ContaCorrente conta = new ContaCorrente();
 
-// implementando a função Transferir
+        conta.titular = gabriela;
+        conta.saldo = 500;
+        conta.agencia = 464;
+        conta.numero = 239584;
 
-ContaCorrente contaDoViola = new ContaCorrente();
+        Console.WriteLine(gabriela.nome);
+        Console.WriteLine(conta.titular.nome);
 
-contaDoViola.titular = "Viola";
-
-contaDoBruno.Transferir(300, contaDoViola);
-
-Console.WriteLine("Saldo do Bruno: " + contaDoBruno.saldo);
-Console.WriteLine("Saldo do Viola: " + contaDoViola.saldo);
-
-Console.ReadLine();
-
-
+    }
+}
 
 
