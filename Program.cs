@@ -1,21 +1,36 @@
-﻿using ByteBank;  
+﻿using ByteBank; 
+using ByteBank.Funcionarios;
 
     {
-        ContaCorrente conta = new ContaCorrente(8566, 9383948);
-        
-        ContaCorrente conta1 = new ContaCorrente(8545, 9344948);
-        
-        ContaCorrente conta2 = new ContaCorrente(8536, 9383948);
+       GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-        Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
+       Funcionario carlos = new Funcionario();
+       carlos.Nome = "Carlos";
+       carlos.CPF = "948.895.456-03";
+       carlos.Salario = 3000;
 
-        ContaCorrente conta3 = new ContaCorrente(453, 94858432);
+       gerenciador.Registrar(carlos);
 
-        Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
+       Diretor roberta = new Diretor();
+        roberta.Nome = "Roberta";
+        roberta.CPF = "898.546.465-94";
+        roberta.Salario = 8000;
 
+        gerenciador.Registrar(roberta);
+       
+        Console.WriteLine(carlos.Nome);
+        Console.WriteLine(carlos.GetBonificacao());
+      
+
+        Console.WriteLine(roberta.Nome);
+        Console.WriteLine(roberta.GetBonificacao());
+
+        Console.WriteLine("Total de Bonificações: " + gerenciador.GetTotalBonificacao());
 
         Console.ReadLine();
 
     }
+
+    
 
 
