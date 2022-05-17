@@ -1,26 +1,21 @@
-﻿using ByteBank;
+﻿using ByteBank;  
 
-class Program   
-{
-    static void Main(string[] args)
     {
-        Cliente gabriela = new Cliente();
+        ContaCorrente conta = new ContaCorrente(8566, 9383948);
+        
+        ContaCorrente conta1 = new ContaCorrente(8545, 9344948);
+        
+        ContaCorrente conta2 = new ContaCorrente(8536, 9383948);
 
-        gabriela.nome = "Gabriela";
-        gabriela.profissao = "Dev C#";
-        gabriela.cpf = "439.459.409-34";
+        Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
-        ContaCorrente conta = new ContaCorrente();
+        ContaCorrente conta3 = new ContaCorrente(453, 94858432);
 
-        conta.titular = gabriela;
-        conta.saldo = 500;
-        conta.agencia = 464;
-        conta.numero = 239584;
+        Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
-        Console.WriteLine(gabriela.nome);
-        Console.WriteLine(conta.titular.nome);
+
+        Console.ReadLine();
 
     }
-}
 
 
